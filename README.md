@@ -5,7 +5,7 @@ A ready to use minimal Vim (Sublime Text -like) .vimrc configuration
 ![](vim-sublime.gif)
 
 <p align="center">
-	(<a href="https://github.com/grigio/vim-sublime/raw/master/vim-sublime.gif">Play Video</a>)
+	(<a href="https://github.com/alexstep/vim-sublime/raw/master/vim-sublime.gif">Play Video</a>)
 </p>
 
 ## Installation
@@ -18,7 +18,7 @@ Install Vundle
 
 Install *vim-sublime* `.vimrc`
 
-`$ curl https://raw.githubusercontent.com/grigio/vim-sublime/master/vimrc > $HOME/.vimrc`
+`$ curl https://raw.githubusercontent.com/alexstep/vim-sublime/master/vimrc > $HOME/.vimrc`
 
 Then open `vim` and run
 
