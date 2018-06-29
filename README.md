@@ -8,7 +8,17 @@ A ready to use minimal Vim (Sublime Text -like) .vimrc configuration
 	(<a href="https://github.com/alexstep/vim-sublime/raw/master/vim-sublime.gif">Play Video</a>)
 </p>
 
-## Installation
+## Quick install (bash)
+```apt-get install vim -y```
+```mkdir -p $HOME/.vim/bundle && \
+git clone --depth=1 https://github.com/VundleVim/Vundle.vim.git $HOME/.vim/bundle/Vundle.vim && \
+curl https://raw.githubusercontent.com/alexstep/vim-sublime/master/vimrc > $HOME/.vimrc && \
+cd ~/.vim/ && git clone https://github.com/flazz/vim-colorschemes && \
+mv vim-colorschemes/colors ./ && rm -rf vim-colorschemes && \
+vim -c "PluginInstall"
+```
+
+## Step-by-step Installation
 
 *vim-sublime* includes [Vundle](https://github.com/VundleVim/Vundle.vim) package manager and some external plugins.
 
@@ -20,10 +30,6 @@ Install *vim-sublime* `.vimrc`
 
 `$ curl https://raw.githubusercontent.com/alexstep/vim-sublime/master/vimrc > $HOME/.vimrc`
 
-Then open `vim` and run
-
-`:PluginInstall`
-
 Add the plugin colors
 
 `$ cd`
@@ -34,7 +40,8 @@ Add the plugin colors
 
 `$ rm -rf vim-colorschemes`
 
-Quit and enter in `vim` again to apply the changes
+Then open `vim` and run
+`:PluginInstall`
 
 You can also add machine specific config to `~/.local.vim`
 
