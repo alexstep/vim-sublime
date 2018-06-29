@@ -9,7 +9,7 @@ A ready to use minimal Vim (Sublime Text -like) .vimrc configuration
 </p>
 
 ## Quick install
-Run this script
+Run [this script](https://github.com/alexstep/vim-sublime/blob/master/install.sh)
 
 ``` curl https://raw.githubusercontent.com/alexstep/vim-sublime/master/install.sh | sh ```
 
