@@ -8,7 +8,13 @@ A ready to use minimal Vim (Sublime Text -like) .vimrc configuration
 	(<a href="https://github.com/alexstep/vim-sublime/raw/master/vim-sublime.gif">Play Video</a>)
 </p>
 
-## Quick install (bash)
+## Quick install
+Run this script
+
+``` curl https://raw.githubusercontent.com/alexstep/vim-sublime/master/install.sh | sh ```
+
+or paste in console:
+
 ```apt-get install vim -y```
 ```mkdir -p $HOME/.vim/bundle && \
 git clone --depth=1 https://github.com/VundleVim/Vundle.vim.git $HOME/.vim/bundle/Vundle.vim && \
