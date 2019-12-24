@@ -111,9 +111,10 @@ set completeopt=menuone,longest,preview
 
 " NERDTree
 nnoremap <S-n> :NERDTreeToggle<CR>
+nnoremap <C-o> :NERDTreeToggle<CR>
 
 " CtrlP
-set wildignore+=*/.git/*,*/.hg/*,*/.svn/*
+set wildignore+=*/.git/*,*/.hg/*,*/node_modules/*,*/dist/*,*/build/*,*/.svn/*
 
 " Ultisnip
 " NOTE: <f1> otherwise it overrides <tab> forever
