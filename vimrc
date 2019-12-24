@@ -20,8 +20,10 @@ Plugin 'tomtom/tcomment_vim'
 Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
 Plugin 'airblade/vim-gitgutter'
-" Plugin 'Valloric/YouCompleteMe'
 Plugin 'davidhalter/jedi-vim'
+Plugin 'zxqfl/tabnine-vim'
+" Plugin 'Valloric/YouCompleteMe'
+
 
 " Color Themes
 Plugin 'colors'
